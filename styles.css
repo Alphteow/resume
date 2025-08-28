@@ -1020,19 +1020,6 @@ section {
 }
 
 .contact-email,
-.contact-phone {
-    color: var(--primary-color);
-    font-weight: 600;
-    text-decoration: none;
-    transition: var(--transition-fast);
-}
-
-.contact-email:hover,
-.contact-phone:hover {
-    color: var(--primary-dark);
-    text-decoration: underline;
-}
-
 .contact-linkedin {
     color: var(--primary-color);
     font-weight: 600;
@@ -1040,6 +1027,7 @@ section {
     transition: var(--transition-fast);
 }
 
+.contact-email:hover,
 .contact-linkedin:hover {
     color: var(--primary-dark);
     text-decoration: underline;
